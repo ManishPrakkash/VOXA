@@ -4,7 +4,7 @@ Voxa is a Java-based voice assistant that uses agents and Web UI to automate web
 
 ## 🚀 Features
 
-- Automate websites via voice commands (open Gmail, search YouTube, fill forms).
+- Automate websites via text also voice commands.
 - Persistent browser sessions with history stored in MongoDB.
 - Multi-browser support — no repeated logins.
 - Voice feedback and task execution for impaired users.
@@ -12,8 +12,8 @@ Voxa is a Java-based voice assistant that uses agents and Web UI to automate web
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Java (command processing, automation logic)
-- **Browser Automation:** Selenium / Playwright Java + Agent system
+- **Backend:** Java, Gemini (command processing, automation logic)
+- **Browser Automation:** Selenium / Playwright Java + Browse use
 - **Database:** MongoDB (stores sessions, commands, and preferences)
 - **Frontend:** JavaFX / Swing Web UI
 - **Voice Processing:** Java Speech API / TTS libraries
