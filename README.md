@@ -47,7 +47,7 @@ java -jar Voxa.jar
 ```
 4. Speak commands like:
 - “Open Gmail and read my latest email”
-- “Search YouTube for Java tutorials and play the first video”
+- “Open LinkedIn, search 'Java developer internships', filter by 'Last 7 days'”
 
 ## 🌟 Why Voxa Stands Out
 
