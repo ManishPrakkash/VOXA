@@ -1,0 +1,9 @@
+Step 1: Start Web-UI Backend (MOST IMPORTANT)
+This is your main backend with Gemini API and browser automation.
+Wait for: Running on local URL: http://127.0.0.1:7788
+Step 2: Start Python Server
+This bridges your React frontend to the web-ui backend.
+Wait for: Uvicorn running on http://0.0.0.0:8000
+Step 3: Start React Frontend
+This is your modern UI interface.
+Wait for: Local: http://localhost:5174/
