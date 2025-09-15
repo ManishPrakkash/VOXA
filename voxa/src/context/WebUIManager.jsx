@@ -182,6 +182,7 @@ export const WebUIManager = ({ children }) => {
       console.log('Starting agent with instruction:', instruction);
       console.log('Agent settings:', agentSettings);
       console.log('Browser settings:', browserSettings);
+      console.log('LLM Provider:', agentSettings.llmProvider, 'Model:', agentSettings.llmModelName, 'API Key:', agentSettings.llmApiKey ? '***' : 'None');
 
       // Make API call to Python server
       console.log('Making POST request to:', `${PYTHON_SERVER_URL}/api/agents/start`);
