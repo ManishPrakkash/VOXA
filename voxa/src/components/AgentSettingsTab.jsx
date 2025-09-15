@@ -30,7 +30,17 @@ const AgentSettingsTab = () => {
   const toast = useToast();
 
   const handleInputChange = (field, value) => {
-    updateAgentSettings({ [field]: value });
+    if (field === 'llmProvider') {
+      // When provider changes, update model to first available model for that provider
+      const availableModels = modelNames[value] || [];
+      const newModel = availableModels.length > 0 ? availableModels[0] : '';
+      updateAgentSettings({ 
+        [field]: value,
+        llmModelName: newModel
+      });
+    } else {
+      updateAgentSettings({ [field]: value });
+    }
   };
 
   const handleFileUpload = (event) => {
